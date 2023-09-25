@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void clickFunction(View view){
 
+
         EditText myTextField = (EditText) findViewById(R.id.myTextField);
         goToActivity(myTextField.getText().toString());
 
